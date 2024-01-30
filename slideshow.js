@@ -37,7 +37,6 @@ function showSlides(n) {
   headlines.forEach(element => {
     if (index == slideIndex - 1) {
       element.className = "yellow-border";
-      console.log(index, slideIndex, element, element.className)
     }
     else {
       element.className = "";
